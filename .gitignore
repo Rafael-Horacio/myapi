@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambiente virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Arquivos de migracão desnecessários no deploy
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações locais
+*.env
+.env
+
+# Arquivos de cobertura de teste
+htmlcov/
+.coverage
+
+# Arquivos do sistema
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Pasta build e distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
